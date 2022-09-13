@@ -22,10 +22,11 @@ void Person::setName(const string &name) {
     Person::name = name;
 }
 
-Classes *Person::getClasses() const {
-    return classes;
+void Person::inputData() {
+    cout<<"Name"<<endl;
+    this->name = Utils::inputString();
 }
 
-void Person::setClasses(Classes *classes) {
-    Person::classes = classes;
+void Person::showData() {
+    cout<<this->id<<this->name<<endl;
 }

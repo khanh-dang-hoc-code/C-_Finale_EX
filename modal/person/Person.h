@@ -6,15 +6,18 @@
 #define C___FINAL_EX_PERSON_H
 
 #include "string"
+#include "iostream"
 
-#include "../Classes.h"
+#include "../../utils/Utils.h"
+
+
 
 using namespace std;
+
 class Person {
 private:
     string id;
     string name;
-    Classes* classes;
 public:
     Person();
 
@@ -26,9 +29,10 @@ public:
 
     void setName(const string &name);
 
-    Classes *getClasses() const;
+    void inputData();
 
-    void setClasses(Classes *classes);
+    void showData();
+
 
 
 };

@@ -7,22 +7,26 @@
 
 #include "iostream"
 
+#include "../utils/Utils.h"
+
 using namespace std;
 
 
 
 class ApplicationView {
 private :
-    void showAdminMenu();
+    static void showAdminMenu();
 
-    void showUserMenu();
+    static void showUserMenu();
 
-    void adminMenu();
+    static void adminMenu();
 
-    void userMenu();
+    static void userMenu();
 
+    static void login();
 public :
     static void menu();
+
 };
 
 

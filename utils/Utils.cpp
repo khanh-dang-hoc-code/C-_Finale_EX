@@ -5,6 +5,7 @@
 #include "Utils.h"
 
 
+
 double Utils::inputDoubleNumber() {
     while (true) {
         string result;
@@ -83,6 +84,7 @@ static void chuanHoa(string &a) {
 string Utils::inputString() {
     string s;
     getline (cin, s);
+    transform(s.begin(), s.end(), s.begin(), [](unsigned char c){return tolower(c);});
     chuanHoa(s);
     return s;
 }

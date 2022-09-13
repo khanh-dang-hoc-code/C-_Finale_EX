@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/khanh/Workspace/C++/c++_final_ex
+# Install script for directory: C:/Users/khanh/Workspace/C++/C-_Finale_EX
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/khanh/Workspace/C++/c++_final_ex/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/khanh/Workspace/C++/C-_Finale_EX/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

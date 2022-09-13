@@ -8,10 +8,12 @@
 #include "string"
 #include "iostream"
 #include "cstring"
+#include <algorithm>
 
 using namespace std;
 
 class Utils {
+public :
     static int inputIntegerNumber();
 
     static double inputDoubleNumber();
