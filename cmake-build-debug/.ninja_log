@@ -1,0 +1,12 @@
+# ninja log v5
+15	637	6847822607792276	CMakeFiles/c___final_ex.dir/logger/Logger.cpp.obj	5a8b9b9c9fc2e217
+19	545	6847822606869037	CMakeFiles/c___final_ex.dir/view/ApplicationView.cpp.obj	cc8434bd79131789
+4	414	6847790133006726	CMakeFiles/c___final_ex.dir/utils/UtilsGeneric.cpp.obj	a09407303e499a15
+4	468	6847812795766327	CMakeFiles/c___final_ex.dir/modal/person/Person.cpp.obj	cf07d79d9194e5f6
+6	526	6847822606659049	CMakeFiles/c___final_ex.dir/main.cpp.obj	76d711a9e645f8e2
+500	616	6847816613217177	c___final_ex.exe	f42a322fd9208d55
+16	501	6847811685230616	CMakeFiles/c___final_ex.dir/modal/Classes.cpp.obj	8f8ed3b2882e828
+2	225	6847823821404335	build.ninja	a51d621cde85ae81
+6	417	6847823826509715	CMakeFiles/c___final_ex.dir/main.cpp.obj	76d711a9e645f8e2
+6	519	6847824126390770	CMakeFiles/c___final_ex.dir/utils/Utils.cpp.obj	ca7e569dd3468c43
+520	657	6847824127732086	c___final_ex.exe	3f018657384c67cc
