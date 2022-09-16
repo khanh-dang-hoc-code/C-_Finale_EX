@@ -4,45 +4,53 @@
 
 #include "Account.h"
 
-const string &AccountService::getAccountId() const {
+
+const string ACCOUNT_CODE = "Account";
+int Account::tempCount = 100;
+
+
+Account::Account(){
+    Account::accountID = ACCOUNT_CODE+ to_string(Account::tempCount);
+    Account::tempCount++;
+}
+const string &Account::getAccountId() const {
     return accountID;
 }
 
-void AccountService::setAccountId(const string &accountId) {
+void Account::setAccountId(const string &accountId) {
     accountID = accountId;
 }
 
-const string &AccountService::getUserName() const {
+const string &Account::getUserName() const {
     return userName;
 }
 
-void AccountService::setUserName(const string &userName) {
-    AccountService::userName = userName;
+void Account::setUserName(const string &userName) {
+    Account::userName = userName;
 }
 
-const string &AccountService::getPassword() const {
+const string &Account::getPassword() const {
     return password;
 }
 
-void AccountService::setPassword(const string &password) {
-    AccountService::password = password;
+void Account::setPassword(const string &password) {
+    Account::password = password;
 }
 
-Role AccountService::getRole() const {
+Role Account::getRole() const {
     return role;
 }
 
-void AccountService::setRole(Role role) {
-    AccountService::role = role;
+void Account::setRole(Role role) {
+    Account::role = role;
 }
 
-
-const Teacher &AccountService::getTeacher() const {
+const Teacher &Account::getTeacher() const {
     return teacher;
 }
 
-void AccountService::setTeacher(const Teacher &teacher) {
-    AccountService::teacher = teacher;
+void Account::setTeacher(const Teacher &teacher) {
+    Account::teacher = teacher;
 }
 
-AccountService::AccountService(Teacher teacher) : teacher(teacher) {}
+

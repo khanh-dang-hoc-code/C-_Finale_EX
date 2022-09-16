@@ -7,23 +7,27 @@
 
 #include "../Person.h"
 
-class AccountService;
+class Account;
 class Teacher : private Person{
 private :
-    AccountService* account;
+    Account* account;
     static int tempCount;
 public:
-    explicit Teacher(AccountService *account);
 
 
-    AccountService *getAccount() const;
+    Account *getAccount() const;
 
-    void setAccount(AccountService *account);
+    void setAccount(Account *account);
+
+    string getName();
+
+    string getID();
 
     void inputData();
 
     void showData();
 
+    Teacher();
 };
 
 

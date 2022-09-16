@@ -96,3 +96,74 @@ bool Utils::compareString(string a, const string& b) {
 bool  Utils::compareIgnoreString(string a, string b) {
     return a == b;
 }
+
+
+
+static void textcolor(WORD color)
+{
+    HANDLE hConsoleOutput;
+    hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
+    GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
+
+    WORD wAttributes = screen_buffer_info.wAttributes;
+    color &= 0x000f;
+    wAttributes &= 0xfff0;
+    wAttributes |= color;
+
+    SetConsoleTextAttribute(hConsoleOutput, wAttributes);
+}
+static void gotoxy(short x, short y)
+{
+    HANDLE hConsoleOutput;
+    COORD Cursor_an_Pos = {x, y};
+    hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
+}
+//void Utils::PR(int xgoc, int ygoc, int xdich, int ydich, char *xau = "Khanh", int tre = 15, int mau = GREEN, int cach = 1)
+//{
+//    int i, j = 0;
+//    textcolor(mau);
+//    if (xgoc == xdich && ygoc > ydich && cach == 1)
+//    {
+//        for (j = 0; j <= strlen(xau); j++)
+//        {
+//            if (xau[j] != 32)
+//                for (i = ygoc; i >= ydich; i--)
+//                {
+//                    gotoxy(xgoc, i);
+//                    putch(xau[j]);
+//                    gotoxy(xgoc, i + 1);
+//                    putch(' ');
+//                    Sleep(tre);
+//                }
+//            else
+//            {
+//                gotoxy(xgoc, ydich);
+//                putch(' ');
+//            }
+//            xgoc++;
+//        }
+//    }
+//
+//    if (ydich == ygoc && xgoc > xdich && cach == 1)
+//    {
+//        for (j = 0; j <= strlen(xau); j++)
+//        {
+//            if (xau[j] != 32)
+//                for (i = xgoc; i >= xdich; i--)
+//                {
+//                    gotoxy(i, ygoc);
+//                    printf("%c ", xau[j]);
+//                    Sleep(tre);
+//                }
+//            else
+//            {
+//                gotoxy(xgoc, ydich);
+//                putch(' ');
+//            }
+//            xdich++;
+//        }
+//    }
+//}

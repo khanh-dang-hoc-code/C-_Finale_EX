@@ -10,15 +10,15 @@
 
 class Student : private Person {
 private :
-    Classes* classes;
+    Classes classes;
     static int countTemp;
     double averagePoints;
 public:
     Student();
 
-    Classes *getClasses() const;
+    Classes getClasses() const;
 
-    void setClasses(Classes *classes);
+    void setClasses(Classes &classes);
 
     double getAveragePoints() const;
 

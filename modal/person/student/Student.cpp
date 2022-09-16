@@ -7,11 +7,11 @@
 const string STUDENT_CODE = "Student";
 int Student::countTemp  = 1000;
 
-Classes *Student::getClasses() const {
+Classes Student::getClasses() const {
     return classes;
 }
 
-void Student::setClasses(Classes *classes) {
+void Student::setClasses(Classes &classes) {
     Student::classes = classes;
 }
 

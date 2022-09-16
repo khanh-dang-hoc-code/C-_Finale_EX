@@ -9,7 +9,15 @@
 
 using namespace std;
 
-const string FILENAME = "123";
+const string ACCOUNT_FILENAME = "account.txt";
+const string MAJOR_FILENAME = "major.txt";
+const string CLASSESS_FILENAME = "classess.txt";
+const string STUDENT_FILENAME = "student.txt";
+const string TEACHER_FILENAME = "teacher.txt";
+const string SUBJECT_FILENAME = "subject.txt";
+const string EXAM_FILENAME = "exam.txt";
+const string QUESTION_FILENAME = "question.txt";
+const string SYSTEM_FILENAME = "system.txt";
 
 
 

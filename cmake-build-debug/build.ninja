@@ -51,195 +51,201 @@ build cmake_object_order_depends_target_c___final_ex: phony || CMakeFiles/c___fi
 
 build CMakeFiles/c___final_ex.dir/main.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/main.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir
 
 build CMakeFiles/c___final_ex.dir/modal/person/Person.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/person/Person.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\person\Person.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\person
 
 build CMakeFiles/c___final_ex.dir/utils/UtilsGeneric.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/utils/UtilsGeneric.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\utils\UtilsGeneric.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\utils
 
 build CMakeFiles/c___final_ex.dir/modal/classess/Classes.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/classess/Classes.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\classess\Classes.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\classess
 
 build CMakeFiles/c___final_ex.dir/view/ApplicationView.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/view/ApplicationView.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\view\ApplicationView.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\view
 
 build CMakeFiles/c___final_ex.dir/utils/Utils.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/utils/Utils.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\utils\Utils.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\utils
 
 build CMakeFiles/c___final_ex.dir/logger/Logger.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/logger/Logger.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\logger\Logger.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\logger
 
 build CMakeFiles/c___final_ex.dir/modal/account/Account.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/account/Account.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\account\Account.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\account
 
 build CMakeFiles/c___final_ex.dir/modal/person/teacher/Teacher.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/person/teacher/Teacher.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\person\teacher\Teacher.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\person\teacher
 
 build CMakeFiles/c___final_ex.dir/modal/person/student/Student.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/person/student/Student.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\person\student\Student.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\person\student
 
 build CMakeFiles/c___final_ex.dir/modal/major/Major.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/major/Major.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\major\Major.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\major
 
 build CMakeFiles/c___final_ex.dir/modal/subject/Subject.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/subject/Subject.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\subject\Subject.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\subject
 
 build CMakeFiles/c___final_ex.dir/modal/exam/Exam.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/exam/Exam.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\exam\Exam.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\exam
 
 build CMakeFiles/c___final_ex.dir/modal/question/Question.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/question/Question.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\question\Question.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\question
 
 build CMakeFiles/c___final_ex.dir/modal/answer/Answer.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/modal/answer/Answer.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\modal\answer\Answer.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\modal\answer
 
 build CMakeFiles/c___final_ex.dir/serivce/account/AccountService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/account/AccountService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\account\AccountService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\account
 
 build CMakeFiles/c___final_ex.dir/serivce/answer/AnswerService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/answer/AnswerService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\answer\AnswerService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\answer
 
 build CMakeFiles/c___final_ex.dir/serivce/classess/ClassessService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/classess/ClassessService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\classess\ClassessService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\classess
 
 build CMakeFiles/c___final_ex.dir/serivce/exam/ExamService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/exam/ExamService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\exam\ExamService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\exam
 
 build CMakeFiles/c___final_ex.dir/serivce/major/MajorService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/major/MajorService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\major\MajorService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\major
 
 build CMakeFiles/c___final_ex.dir/serivce/person/student/StudentService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/person/student/StudentService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\person\student\StudentService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\person\student
 
-build CMakeFiles/c___final_ex.dir/serivce/person/teacher/Teacher.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/person/teacher/Teacher.cpp || cmake_object_order_depends_target_c___final_ex
-  DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\person\teacher\Teacher.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+build CMakeFiles/c___final_ex.dir/serivce/person/teacher/TeacherService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/person/teacher/TeacherService.cpp || cmake_object_order_depends_target_c___final_ex
+  DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\person\teacher\TeacherService.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\person\teacher
 
 build CMakeFiles/c___final_ex.dir/serivce/question/QuestionService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/question/QuestionService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\question\QuestionService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\question
 
 build CMakeFiles/c___final_ex.dir/serivce/subject/SubjectService.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/serivce/subject/SubjectService.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\serivce\subject\SubjectService.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\serivce\subject
 
 build CMakeFiles/c___final_ex.dir/controller/account/AccountController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/account/AccountController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\account\AccountController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\account
 
 build CMakeFiles/c___final_ex.dir/controller/answer/AnswerController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/answer/AnswerController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\answer\AnswerController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\answer
 
 build CMakeFiles/c___final_ex.dir/controller/classess/ClassessController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/classess/ClassessController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\classess\ClassessController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\classess
 
 build CMakeFiles/c___final_ex.dir/controller/exam/ExamController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/exam/ExamController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\exam\ExamController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\exam
 
 build CMakeFiles/c___final_ex.dir/controller/major/MajorController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/major/MajorController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\major\MajorController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\major
 
 build CMakeFiles/c___final_ex.dir/controller/person/PersonController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/person/PersonController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\person\PersonController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\person
 
 build CMakeFiles/c___final_ex.dir/controller/question/QuestionController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/question/QuestionController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\question\QuestionController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\question
 
 build CMakeFiles/c___final_ex.dir/controller/subject/SubjectController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/subject/SubjectController.cpp || cmake_object_order_depends_target_c___final_ex
   DEP_FILE = CMakeFiles\c___final_ex.dir\controller\subject\SubjectController.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\subject
+
+build CMakeFiles/c___final_ex.dir/controller/person/teacher/TeacherController.cpp.obj: CXX_COMPILER__c___final_ex_Debug C$:/Users/khanh/Workspace/C++/C-_Finale_EX/controller/person/teacher/TeacherController.cpp || cmake_object_order_depends_target_c___final_ex
+  DEP_FILE = CMakeFiles\c___final_ex.dir\controller\person\teacher\TeacherController.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\c___final_ex.dir
+  OBJECT_FILE_DIR = CMakeFiles\c___final_ex.dir\controller\person\teacher
 
 
 # =============================================================================
@@ -249,8 +255,9 @@ build CMakeFiles/c___final_ex.dir/controller/subject/SubjectController.cpp.obj: 
 #############################################
 # Link the executable c___final_ex.exe
 
-build c___final_ex.exe: CXX_EXECUTABLE_LINKER__c___final_ex_Debug CMakeFiles/c___final_ex.dir/main.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/Person.cpp.obj CMakeFiles/c___final_ex.dir/utils/UtilsGeneric.cpp.obj CMakeFiles/c___final_ex.dir/modal/classess/Classes.cpp.obj CMakeFiles/c___final_ex.dir/view/ApplicationView.cpp.obj CMakeFiles/c___final_ex.dir/utils/Utils.cpp.obj CMakeFiles/c___final_ex.dir/logger/Logger.cpp.obj CMakeFiles/c___final_ex.dir/modal/account/Account.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/teacher/Teacher.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/student/Student.cpp.obj CMakeFiles/c___final_ex.dir/modal/major/Major.cpp.obj CMakeFiles/c___final_ex.dir/modal/subject/Subject.cpp.obj CMakeFiles/c___final_ex.dir/modal/exam/Exam.cpp.obj CMakeFiles/c___final_ex.dir/modal/question/Question.cpp.obj CMakeFiles/c___final_ex.dir/modal/answer/Answer.cpp.obj CMakeFiles/c___final_ex.dir/serivce/account/AccountService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/answer/AnswerService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/classess/ClassessService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/exam/ExamService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/major/MajorService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/person/student/StudentService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/person/teacher/Teacher.cpp.obj CMakeFiles/c___final_ex.dir/serivce/question/QuestionService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/subject/SubjectService.cpp.obj CMakeFiles/c___final_ex.dir/controller/account/AccountController.cpp.obj CMakeFiles/c___final_ex.dir/controller/answer/AnswerController.cpp.obj CMakeFiles/c___final_ex.dir/controller/classess/ClassessController.cpp.obj CMakeFiles/c___final_ex.dir/controller/exam/ExamController.cpp.obj CMakeFiles/c___final_ex.dir/controller/major/MajorController.cpp.obj CMakeFiles/c___final_ex.dir/controller/person/PersonController.cpp.obj CMakeFiles/c___final_ex.dir/controller/question/QuestionController.cpp.obj CMakeFiles/c___final_ex.dir/controller/subject/SubjectController.cpp.obj
-  FLAGS = -g
+build c___final_ex.exe: CXX_EXECUTABLE_LINKER__c___final_ex_Debug CMakeFiles/c___final_ex.dir/main.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/Person.cpp.obj CMakeFiles/c___final_ex.dir/utils/UtilsGeneric.cpp.obj CMakeFiles/c___final_ex.dir/modal/classess/Classes.cpp.obj CMakeFiles/c___final_ex.dir/view/ApplicationView.cpp.obj CMakeFiles/c___final_ex.dir/utils/Utils.cpp.obj CMakeFiles/c___final_ex.dir/logger/Logger.cpp.obj CMakeFiles/c___final_ex.dir/modal/account/Account.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/teacher/Teacher.cpp.obj CMakeFiles/c___final_ex.dir/modal/person/student/Student.cpp.obj CMakeFiles/c___final_ex.dir/modal/major/Major.cpp.obj CMakeFiles/c___final_ex.dir/modal/subject/Subject.cpp.obj CMakeFiles/c___final_ex.dir/modal/exam/Exam.cpp.obj CMakeFiles/c___final_ex.dir/modal/question/Question.cpp.obj CMakeFiles/c___final_ex.dir/modal/answer/Answer.cpp.obj CMakeFiles/c___final_ex.dir/serivce/account/AccountService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/answer/AnswerService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/classess/ClassessService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/exam/ExamService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/major/MajorService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/person/student/StudentService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/person/teacher/TeacherService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/question/QuestionService.cpp.obj CMakeFiles/c___final_ex.dir/serivce/subject/SubjectService.cpp.obj CMakeFiles/c___final_ex.dir/controller/account/AccountController.cpp.obj CMakeFiles/c___final_ex.dir/controller/answer/AnswerController.cpp.obj CMakeFiles/c___final_ex.dir/controller/classess/ClassessController.cpp.obj CMakeFiles/c___final_ex.dir/controller/exam/ExamController.cpp.obj CMakeFiles/c___final_ex.dir/controller/major/MajorController.cpp.obj CMakeFiles/c___final_ex.dir/controller/person/PersonController.cpp.obj CMakeFiles/c___final_ex.dir/controller/question/QuestionController.cpp.obj CMakeFiles/c___final_ex.dir/controller/subject/SubjectController.cpp.obj CMakeFiles/c___final_ex.dir/controller/person/teacher/TeacherController.cpp.obj
+  FLAGS = -static-libstdc++ -static-libgcc -g
+  LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c___final_ex.dir
   POST_BUILD = cd .

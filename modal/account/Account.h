@@ -2,7 +2,7 @@
 // Created by khanh on 13/09/2022.
 //
 
-#ifndef C___FINAL_EX_ACCOUNTSERVICE_H
+#ifndef C___FINAL_EX_ACCOUNT_H
 #define C___FINAL_EX_ACCOUNT_H
 
 #include "string"
@@ -12,16 +12,17 @@
 
 using namespace std;
 
-class AccountService {
+class Account {
 private:
     string accountID;
     string userName;
     string password;
     Role role;
-    Teacher teacher;
+    static int tempCount;
+    Teacher teacher ;
 public:
-    AccountService(Teacher teacher);
 
+    Account();
     const string &getAccountId() const;
 
     void setAccountId(const string &accountId);
@@ -42,9 +43,10 @@ public:
 
     void setTeacher(const Teacher &teacher);
 
+    void inputData();
 
 
 };
 
 
-#endif //C___FINAL_EX_ACCOUNTSERVICE_H
+#endif //C___FINAL_EX_ACCOUNT_H
