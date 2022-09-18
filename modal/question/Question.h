@@ -6,30 +6,35 @@
 #define C___FINAL_EX_QUESTION_H
 
 #include "string"
+#include "memory"
+#include "vector"
 
-#include "../exam/Exam.h"
+using namespace std;
 
+class Exam;
 class Answer;
 class Question {
 private :
     string id;
     string questionContent;
-    vector<Answer>* answerList;
-    Exam exam;
+    vector<shared_ptr<Answer>> answerList;
+    shared_ptr<Exam> exam;
 
 
 public:
-    const Exam &getExam() const;
+    const shared_ptr<Exam> &getExam() const;
 
-    void setExam(const Exam &exam);
+    explicit Question(const string &questionContent);
+
+    void setExam(const shared_ptr<Exam> &exam);
 
     const string &getQuestionContent() const;
 
     void setQuestionContent(const string &questionContent);
 
-    vector<Answer> *getAnswerList() const;
+    const vector<shared_ptr<Answer>> &getAnswerList() const;
 
-    void setAnswerList(vector<Answer> *answerList);
+    void setAnswerList(const vector<shared_ptr<Answer>> &answerList);
 
     const string &getId() const;
 

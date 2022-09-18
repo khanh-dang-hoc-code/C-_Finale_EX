@@ -5,27 +5,28 @@
 #ifndef C___FINAL_EX_EXAM_H
 #define C___FINAL_EX_EXAM_H
 
-#include "../subject/Subject.h"
 #include "vector"
 #include "string"
+#include "memory"
 
 
 using namespace std;
 
+class Subject;
 class Question;
 class Exam {
 private :
     string id;
-    Subject subject;
-    vector<Question>* questionList;
+    shared_ptr<Subject> subject;
+    vector<shared_ptr<Question>> questionList;
 public:
-    const Subject &getSubject() const;
+    const shared_ptr<Subject> &getSubject() const;
 
-    void setSubject(const Subject &subject);
+    void setSubject(const shared_ptr<Subject> &subject);
 
-    vector<Question> *getQuestionList() const;
+    const vector<shared_ptr<Question>> &getQuestionList() const;
 
-    void setQuestionList(vector<Question> *questionList);
+    void setQuestionList(const vector<shared_ptr<Question>> &questionList);
 
     const string &getId() const;
 

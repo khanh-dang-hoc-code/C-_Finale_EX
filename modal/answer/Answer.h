@@ -5,14 +5,15 @@
 #ifndef C___FINAL_EX_ANSWER_H
 #define C___FINAL_EX_ANSWER_H
 
-#include "../question/Question.h"
 #include "string"
+#include "memory"
 
 using namespace std;
 
+class Question;
 class Answer {
 private:
-    Question question;
+    shared_ptr<Question> question;
     string answerContent;
     bool isCorrect;
     string id;
@@ -20,9 +21,13 @@ private:
 public:
     Answer();
 
-    const Question &getQuestion() const;
+    Answer(const string &answerContent, bool isCorrect);
 
-    void setQuestion(const Question &question);
+    const shared_ptr<Question> &getQuestion() const;
+
+    void setQuestion(const shared_ptr<Question> &question);
+
+    bool isCorrect2() const;
 
     const string &getAnswerContent() const;
 

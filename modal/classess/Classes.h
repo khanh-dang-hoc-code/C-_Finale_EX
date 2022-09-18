@@ -8,31 +8,47 @@
 #include "string"
 #include "iostream"
 #include "vector"
-#include "../major/Major.h"
+#include "memory"
 
 using namespace std;
+class Major;
 class Student;
 class Classes {
 private :
     string id;
-    vector<Student>* studentList;
-    Major major;
+    string name;
+    int totalStudent;
+    int maxTotal;
+    vector<shared_ptr<Student>> studentList;
+    shared_ptr<Major> major;
 public:
     Classes();
 
-    const Major &getMajor() const;
+    const shared_ptr<Major> &getMajor() const;
 
-    void setMajor(const Major &major);
+    Classes(const string &name, int maxTotal);
+
+    void setMajor(const shared_ptr<Major> &major);
 
     const string &getId() const;
 
     void setId(const string &id);
 
-    vector<Student> *getStudentList() const;
+    const vector<shared_ptr<Student>> &getStudentList() const;
 
-    void setStudentList(vector<Student> *studentList);
+    void setStudentList(const vector<shared_ptr<Student>> &studentList);
 
+    const string &getName() const;
 
+    void setName(const string &name);
+
+    int getTotalStudent() const;
+
+    void setTotalStudent(int totalStudent);
+
+    int getMaxTotal() const;
+
+    void setMaxTotal(int maxTotal);
 
 };
 

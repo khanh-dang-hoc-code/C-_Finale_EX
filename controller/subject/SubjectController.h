@@ -5,8 +5,12 @@
 #ifndef C___FINAL_EX_SUBJECTCONTROLLER_H
 #define C___FINAL_EX_SUBJECTCONTROLLER_H
 
+#include "../../serivce/subject/SubjectService.h"
 
 class SubjectController {
+
+private :
+    friend class SubjectService;
 
 };
 

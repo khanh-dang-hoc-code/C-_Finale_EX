@@ -45,12 +45,19 @@ void Account::setRole(Role role) {
     Account::role = role;
 }
 
-const Teacher &Account::getTeacher() const {
+
+Account::Account( const string &userName, const string &password, Role role) : userName(userName), password(password), role(role) {
+    Account::accountID = ACCOUNT_CODE+ to_string(Account::tempCount);
+    Account::tempCount++;
+}
+
+const shared_ptr<Teacher> &Account::getTeacher() const {
     return teacher;
 }
 
-void Account::setTeacher(const Teacher &teacher) {
+void Account::setTeacher(const shared_ptr<Teacher> &teacher) {
     Account::teacher = teacher;
 }
+
 
 

@@ -7,18 +7,25 @@
 
 #include "../../../modal/person/teacher/Teacher.h"
 #include "vector"
+#include <memory>
+#include "functional"
 
 #include "../../../resource/Resource.h"
 #include "../../../logger/Logger.h"
+#include "../../../controller/person/teacher/TeacherController.h"
 
 using namespace std;
 
 class TeacherService {
 private :
-public :
-    static vector<Teacher> listTeacher;
-    static void addOne(Teacher teacher);
-    static vector<Teacher> getAll();
+    static vector<shared_ptr<Teacher>> listTeacher;
+    static void addOne(shared_ptr<Teacher> teacher);
+    static vector<shared_ptr<Teacher>> getAll();
+    static shared_ptr<Teacher> findTeacherByID(string id);
+    static shared_ptr<Teacher> findTeacherByName(string name);
+    static  void updateTeacherWithID(string id);
+    static void deleteTeacherWithID(string id);
+    friend class TeacherController;
 };
 
 

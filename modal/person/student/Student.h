@@ -5,14 +5,15 @@
 #ifndef C___FINAL_EX_STUDENT_H
 #define C___FINAL_EX_STUDENT_H
 
-#include "../../classess/Classes.h"
 #include "../Person.h"
+#include "memory"
 
+class Classes;
 class Student : private Person {
 private :
-    Classes classes;
     static int countTemp;
     double averagePoints;
+    shared_ptr<Classes>  classes;
 public:
     Student();
 
@@ -24,6 +25,7 @@ public:
 
     void setAveragePoints(double averagePoints);
 
+    void setClasses1(const shared_ptr<Classes> &classes);
 
     void inputData();
 

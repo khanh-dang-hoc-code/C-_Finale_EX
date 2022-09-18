@@ -4,22 +4,6 @@
 
 #include "Subject.h"
 
-vector<Major> *Subject::getMajorList() const {
-    return majorList;
-}
-
-void Subject::setMajorList(vector<Major> *majorList) {
-    Subject::majorList = majorList;
-}
-
-vector<Exam> *Subject::getExamList() const {
-    return examList;
-}
-
-void Subject::setExamList(vector<Exam> *examList) {
-    Subject::examList = examList;
-}
-
 Subject::Subject() {}
 
 const string &Subject::getId() const {
@@ -29,3 +13,21 @@ const string &Subject::getId() const {
 void Subject::setId(const string &id) {
     Subject::id = id;
 }
+
+const vector<shared_ptr<Major>> &Subject::getMajorList() const {
+    return majorList;
+}
+
+void Subject::setMajorList(const vector<shared_ptr<Major>> &majorList) {
+    Subject::majorList = majorList;
+}
+
+const vector<shared_ptr<Exam>> &Subject::getExamList() const {
+    return examList;
+}
+
+void Subject::setExamList(const vector<shared_ptr<Exam>> &examList) {
+    Subject::examList = examList;
+}
+
+Subject::Subject(const string &name) : name(name) {}

@@ -8,14 +8,6 @@ const string MAJOR_CODE = "Major";
 
 int Major::countTemp = 1000;
 
-vector<Classes> *Major::getClassList() const {
-    return classList;
-}
-
-void Major::setClassList(vector<Classes> *classList) {
-    Major::classList = classList;
-}
-
 Major::Major() {
     string a = MAJOR_CODE + to_string(countTemp);
     this->id = a;
@@ -38,10 +30,21 @@ void Major::setName(const string &name) {
     Major::name = name;
 }
 
-vector<Subject> *Major::getSubjectList() const {
+const vector<shared_ptr<Classes>> &Major::getClassList() const {
+    return classList;
+}
+
+void Major::setClassList(const vector<shared_ptr<Classes>> &classList) {
+    Major::classList = classList;
+}
+
+const vector<shared_ptr<Subject>> &Major::getSubjectList() const {
     return subjectList;
 }
 
-void Major::setSubjectList(vector<Subject> *subjectList) {
+void Major::setSubjectList(const vector<shared_ptr<Subject>> &subjectList) {
     Major::subjectList = subjectList;
 }
+
+Major::Major(const string &name) : name(name) {}
+

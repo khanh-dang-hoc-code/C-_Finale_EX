@@ -7,13 +7,7 @@
 const string STUDENT_CODE = "Student";
 int Student::countTemp  = 1000;
 
-Classes Student::getClasses() const {
-    return classes;
-}
 
-void Student::setClasses(Classes &classes) {
-    Student::classes = classes;
-}
 
 Student::Student() {
 }
@@ -35,6 +29,10 @@ double Student::getAveragePoints() const {
 
 void Student::setAveragePoints(double averagePoints) {
     Student::averagePoints = averagePoints;
+}
+
+void Student::setClasses1(const shared_ptr<Classes> &classes) {
+    Student::classes = classes;
 }
 
 

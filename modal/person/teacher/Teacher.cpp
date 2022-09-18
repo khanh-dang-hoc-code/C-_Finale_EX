@@ -28,14 +28,17 @@ string Teacher::getID() {
     return Person::getId();
 }
 
-Teacher::Teacher() {
-
-}
-
-Account *Teacher::getAccount() const {
+const shared_ptr<Account> &Teacher::getAccount() const {
     return account;
 }
 
-void Teacher::setAccount(Account *account) {
+void Teacher::setAccount(const shared_ptr<Account> &account) {
     Teacher::account = account;
+}
+
+Teacher::Teacher(string name) {
+    Person::setName(name);
+    string id = TEACHER_CODE + to_string(Teacher::tempCount);
+    Person::setId(id);
+    Teacher::tempCount++;
 }

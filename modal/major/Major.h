@@ -7,6 +7,7 @@
 
 #include "vector"
 #include "string"
+#include "memory"
 
 using namespace std;
 
@@ -17,15 +18,13 @@ private:
     string id;
     string name;
     static int countTemp;
-    vector<Classes>* classList;
-    vector<Subject>* subjectList;
+    vector<shared_ptr<Classes>> classList;
+    vector<shared_ptr<Subject>> subjectList;
 
 public:
     Major();
 
-    vector<Subject> *getSubjectList() const;
-
-    void setSubjectList(vector<Subject> *subjectList);
+    explicit Major(const string &name);
 
     const string &getId() const;
 
@@ -35,9 +34,13 @@ public:
 
     void setName(const string &name);
 
-    vector<Classes> *getClassList() const;
+    const vector<shared_ptr<Classes>> &getClassList() const;
 
-    void setClassList(vector<Classes> *classList);
+    void setClassList(const vector<shared_ptr<Classes>> &classList);
+
+    const vector<shared_ptr<Subject>> &getSubjectList() const;
+
+    void setSubjectList(const vector<shared_ptr<Subject>> &subjectList);
 
 
 };

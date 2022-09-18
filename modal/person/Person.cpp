@@ -30,3 +30,5 @@ void Person::inputData() {
 void Person::showData() {
     cout<<this->id<<this->name<<endl;
 }
+
+Person::Person(string name) : name(name) {}

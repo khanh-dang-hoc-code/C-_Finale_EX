@@ -4,14 +4,6 @@
 
 #include "Question.h"
 
-const Exam &Question::getExam() const {
-    return exam;
-}
-
-void Question::setExam(const Exam &exam) {
-    Question::exam = exam;
-}
-
 const string &Question::getQuestionContent() const {
     return questionContent;
 }
@@ -29,11 +21,21 @@ void Question::setId(const string &id) {
     Question::id = id;
 }
 
-vector<Answer> *Question::getAnswerList() const {
+const vector<shared_ptr<Answer>> &Question::getAnswerList() const {
     return answerList;
 }
 
-void Question::setAnswerList(vector<Answer> *answerList) {
+void Question::setAnswerList(const vector<shared_ptr<Answer>> &answerList) {
     Question::answerList = answerList;
 }
+
+const shared_ptr<Exam> &Question::getExam() const {
+    return exam;
+}
+
+void Question::setExam(const shared_ptr<Exam> &exam) {
+    Question::exam = exam;
+}
+
+Question::Question(const string &questionContent) : questionContent(questionContent) {}
 

@@ -6,18 +6,19 @@
 #define C___FINAL_EX_TEACHER_H
 
 #include "../Person.h"
+#include "memory"
 
 class Account;
 class Teacher : private Person{
 private :
-    Account* account;
+    shared_ptr<Account> account;
     static int tempCount;
 public:
+    Teacher(string name);
 
+    const shared_ptr<Account> &getAccount() const;
 
-    Account *getAccount() const;
-
-    void setAccount(Account *account);
+    void setAccount(const shared_ptr<Account> &account);
 
     string getName();
 
@@ -27,7 +28,6 @@ public:
 
     void showData();
 
-    Teacher();
 };
 
 

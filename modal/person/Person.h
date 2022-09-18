@@ -21,6 +21,8 @@ private:
 public:
     Person();
 
+     Person(string name);
+
     const string &getId() const;
 
     void setId(const string &id);

@@ -7,30 +7,36 @@
 
 #include "vector"
 #include "string"
+#include "memory"
 
 using namespace std;
 
 class Exam;
+
 class Major;
+
 class Subject {
 private :
     string id;
-    vector<Major>* majorList;
-    vector<Exam>* examList;
+    string name;
+    vector<shared_ptr<Major>> majorList;
+    vector<shared_ptr<Exam>> examList;
 public:
     Subject();
-
-    vector<Major> *getMajorList() const;
-
-    void setMajorList(vector<Major> *majorList);
-
-    vector<Exam> *getExamList() const;
-
-    void setExamList(vector<Exam> *examList);
 
     const string &getId() const;
 
     void setId(const string &id);
+
+    const vector<shared_ptr<Major>> &getMajorList() const;
+
+    void setMajorList(const vector<shared_ptr<Major>> &majorList);
+
+    const vector<shared_ptr<Exam>> &getExamList() const;
+
+    void setExamList(const vector<shared_ptr<Exam>> &examList);
+
+    explicit Subject(const string &name);
 };
 
 

@@ -8,10 +8,11 @@
 #include "string"
 
 #include "../role/Role.h"
-#include "../person/teacher/Teacher.h"
+#include "memory"
 
 using namespace std;
 
+class Teacher;
 class Account {
 private:
     string accountID;
@@ -19,10 +20,13 @@ private:
     string password;
     Role role;
     static int tempCount;
-    Teacher teacher ;
+    shared_ptr<Teacher> teacher ;
 public:
 
     Account();
+
+    Account(const string &userName, const string &password, Role role);
+
     const string &getAccountId() const;
 
     void setAccountId(const string &accountId);
@@ -39,12 +43,11 @@ public:
 
     void setRole(Role role);
 
-    const Teacher &getTeacher() const;
+    const shared_ptr<Teacher> &getTeacher() const;
 
-    void setTeacher(const Teacher &teacher);
+    void setTeacher(const shared_ptr<Teacher> &teacher);
 
     void inputData();
-
 
 };
 

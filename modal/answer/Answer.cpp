@@ -4,14 +4,6 @@
 
 #include "Answer.h"
 
-const Question &Answer::getQuestion() const {
-    return question;
-}
-
-void Answer::setQuestion(const Question &question) {
-    Answer::question = question;
-}
-
 const string &Answer::getAnswerContent() const {
     return answerContent;
 }
@@ -38,3 +30,17 @@ bool Answer::isCorrect1() const {
 void Answer::setIsCorrect(bool isCorrect) {
     Answer::isCorrect = isCorrect;
 }
+
+const shared_ptr<Question> &Answer::getQuestion() const {
+    return question;
+}
+
+void Answer::setQuestion(const shared_ptr<Question> &question) {
+    Answer::question = question;
+}
+
+bool Answer::isCorrect2() const {
+    return isCorrect;
+}
+
+Answer::Answer(const string &answerContent, bool isCorrect) : answerContent(answerContent), isCorrect(isCorrect) {}
