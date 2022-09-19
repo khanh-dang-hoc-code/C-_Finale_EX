@@ -18,6 +18,10 @@ void AccountService::sort(SortEnum type) {
 }
 
 void AccountService::deleteByID(const string& id) {
+    if (listAccount.empty()) {
+        cout << "No data " << endl;
+        return;
+    }
     shared_ptr<Account> a = nullptr;
     a = findByID(std::move(id));
     if(a != nullptr){
@@ -27,6 +31,10 @@ void AccountService::deleteByID(const string& id) {
 }
 
 void AccountService::updateByID(const string& id) {
+    if (listAccount.empty()) {
+        cout << "No data " << endl;
+        return;
+    }
     shared_ptr<Account> a = nullptr;
     a = findByID(id);
     if(a != nullptr){
@@ -46,6 +54,9 @@ void AccountService::addOne(const shared_ptr<Account>& account) {
 }
 
 shared_ptr<Account> AccountService::findByID( string id) {
+    if (listAccount.empty()) {
+        return {};
+    }
     for(shared_ptr<Account> a : listAccount){
         if(Utils::compareString(a->getAccountId(), id)) {
             return a;
@@ -56,6 +67,9 @@ shared_ptr<Account> AccountService::findByID( string id) {
 }
 
 shared_ptr<Account> AccountService::findByUserName(const string& name) {
+    if (listAccount.empty()) {
+        return {};
+    }
     for(shared_ptr<Account> a : listAccount){
         if(Utils::compareString(a->getUserName(), name)) {
             return a;

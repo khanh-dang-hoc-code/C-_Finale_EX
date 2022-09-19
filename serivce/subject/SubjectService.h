@@ -11,18 +11,22 @@
 #include "../../utils/Utils.h"
 
 #include "../../controller/subject/SubjectController.h"
+#include "../ServiceAbstractGeneric.h"
 
-class SubjectService {
-private :
+class SubjectService : private ServiceAbstractGeneric<Subject> {
+public :
+
     static vector<shared_ptr<Subject>> listSubject;
 
-    static void addOne(shared_ptr<Subject> subject);
+     void addOne(shared_ptr<Subject> subject) override;
 
-    static shared_ptr<Subject> findSubjectWithID(string subjectID);
+     shared_ptr<Subject> findOneByID(string id) override;
 
-    static vector<shared_ptr<Subject>> getList();
+     shared_ptr<Subject> findOneByName(string name) override;
 
-    static shared_ptr<Subject> findSubjectWithMajorID(string majorID);
+     void updateByID(string id) override;
+
+     void deleteByID(string id) override;
 
     friend class SubjectController;
 };

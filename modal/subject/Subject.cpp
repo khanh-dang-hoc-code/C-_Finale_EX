@@ -31,3 +31,11 @@ void Subject::setExamList(const vector<shared_ptr<Exam>> &examList) {
 }
 
 Subject::Subject(const string &name) : name(name) {}
+
+const string &Subject::getName() const {
+    return name;
+}
+
+void Subject::setName(const string &name) {
+    Subject::name = name;
+}

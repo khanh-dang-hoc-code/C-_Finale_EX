@@ -3,3 +3,8 @@
 //
 
 #include "MajorController.h"
+
+void MajorController::addOne() {
+    MajorService majorService;
+    majorService.addOne();
+}

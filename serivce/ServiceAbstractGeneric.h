@@ -12,11 +12,11 @@ using namespace std;
 template<class T>
 class ServiceAbstractGeneric {
 private:
-    virtual void addOne();
+    virtual void addOne(shared_ptr<T> t);
 
     virtual shared_ptr<T> findOneByID(string id);
 
-    virtual shared_ptr<T> indOneByName(string name);
+    virtual shared_ptr<T> findOneByName(string name);
 
     virtual void updateByID(string id);
 

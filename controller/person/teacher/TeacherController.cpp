@@ -14,7 +14,7 @@ void TeacherController::addOne() {
     string name = "teacher";
 //    Utils::inputString();
     shared_ptr<Teacher> teacher(new Teacher(name));
-    shared_ptr<Account> acc(new Account(teacher->getID(),"", USER));
+    shared_ptr<Account> acc(new Account(teacher->getId(),"", USER));
     acc->setTeacher(teacher);
     teacher->setAccount(acc);
     AccountController::addOne(acc);

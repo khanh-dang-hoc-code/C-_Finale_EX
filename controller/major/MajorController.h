@@ -5,9 +5,14 @@
 #ifndef C___FINAL_EX_MAJORCONTROLLER_H
 #define C___FINAL_EX_MAJORCONTROLLER_H
 
+#include "../../serivce/major/MajorService.h"
+
 
 class MajorController {
-
+private :
+    friend class MajorService;
+public:
+    static void addOne();
 };
 
 

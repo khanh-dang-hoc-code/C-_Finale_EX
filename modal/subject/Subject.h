@@ -36,6 +36,10 @@ public:
 
     void setExamList(const vector<shared_ptr<Exam>> &examList);
 
+    const string &getName() const;
+
+    void setName(const string &name);
+
     explicit Subject(const string &name);
 };
 

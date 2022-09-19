@@ -27,6 +27,12 @@ public:
 
     void setClasses1(const shared_ptr<Classes> &classes);
 
+    string getId() const;
+
+    string getName() const;
+
+    void setName(string name);
+
     void inputData();
 
     void showData();

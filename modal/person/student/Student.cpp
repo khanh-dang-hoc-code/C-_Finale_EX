@@ -35,4 +35,16 @@ void Student::setClasses1(const shared_ptr<Classes> &classes) {
     Student::classes = classes;
 }
 
+ string Student::getId() const{
+    return Person::getId();
+}
+
+string Student::getName() const{
+    return Person::getName();
+}
+
+void Student::setName(std::string name) {
+    Person::setName(name);
+}
+
 

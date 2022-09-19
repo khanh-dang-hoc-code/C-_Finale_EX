@@ -20,11 +20,11 @@ void Teacher::showData() {
     Person::showData();
 }
 
-string Teacher::getName() {
+string Teacher::getName() const{
     return Person::getName();
 }
 
-string Teacher::getID() {
+string Teacher::getId() const{
     return Person::getId();
 }
 
@@ -41,4 +41,8 @@ Teacher::Teacher(string name) {
     string id = TEACHER_CODE + to_string(Teacher::tempCount);
     Person::setId(id);
     Teacher::tempCount++;
+}
+
+void Teacher::setName(string name) {
+    Person::setName(name);
 }

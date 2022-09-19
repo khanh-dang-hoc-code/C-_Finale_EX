@@ -82,6 +82,7 @@ void ApplicationView::userMenu() {
 void ApplicationView::login() {
     string userName;
     string password;
+    MajorController::addOne();
     cout<<"Enter User Name"<<endl;
     userName = Utils::inputString();
     cout<<"Enter Password"<<endl;

@@ -20,9 +20,11 @@ public:
 
     void setAccount(const shared_ptr<Account> &account);
 
-    string getName();
+    string getName() const;
 
-    string getID();
+    string getId() const;
+
+    void setName(string name);
 
     void inputData();
 
